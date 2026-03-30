@@ -406,7 +406,7 @@ function showFirst(u){
     </div>`;
   const ftr=document.getElementById('ftr');
   ftr.style.display='block';
-  ftr.innerHTML=`<button class="ftr-btn primary" onclick="goTopic()">はじめる →</button>`;
+  ftr.innerHTML=`<button class="ftr-btn primary" onclick="location.href='demo.html'">デモを見る →</button>`;
 }
 
 function showRepeat(u){
@@ -445,7 +445,7 @@ function showRepeat(u){
 
   const ftr=document.getElementById('ftr');
   ftr.style.display='block';
-  ftr.innerHTML=`<button class="ftr-btn primary" onclick="goTopic()">続きから始める →</button>`;
+  ftr.innerHTML=`<button class="ftr-btn primary" onclick="location.href='demo.html'">デモを見る →</button>`;
 }
 
 function goTopic(){alert('トピックページへ移動します');}
